@@ -7,7 +7,7 @@ var category = require("./category");
 var product = require("./products");
 const config = require("./config");
 
-const port = process.env.port | 5000;
+const port = process.env.PORT || 5000;
 
 const app = new Express();
 
